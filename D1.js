@@ -11,40 +11,37 @@ REGOLE
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
  */
 
-
 /* SCRIVI QUI LA TUA RISPOSTA */
-console.log("ESERCIZIO 1")
+console.log("ESERCIZIO 1");
 console.log(`I DataTypes sono dati immessi nelle variabili.
-I principali DataTypes in javascript sono le stringhe, i numeri, i dati booleani, null e gli undefined.
+I principali DataTypes in javascript sono le stringhe, i numeri, i dati booleani, null e undefined.
 Le stringhe possono essere scritte con tre diversi simboli: con doppie virgolette, con virgoletta singola (o apostrofo), con backtick (con strighe più lunghe che vanno a capo).
 Il secondo tipo do Dato è il Numero,con questa tipologia di dato in JavaScript possiamo effettuare diverse tipologie di calcoli numerici come l'addizione,la moltiplicazione,la sottrazione e la divisione.
 I dati booleani possono essere di due tipi, True o False ( vero o Falso).
 Il tipo undefiend rappresenta una variabile vuota, ossia una variabile senza alcun valore.Possiamo controllare il valore di una variabile con il procedimento consol.log.
-Inoltre quando si programma a volte si può trovare anche il valore null, esso rappresenta qualcosa di intenzionalmente vuoto.`)
-  console.log("************************************************************");
+Inoltre quando si programma a volte si può trovare anche il valore null, esso rappresenta qualcosa di intenzionalmente vuoto.`);
+console.log("************************************************************");
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-
 /* SCRIVI QUI LA TUA RISPOSTA */
-console.log("ESERCIZIO 2")
-let myName = "Cosimo"
-console.log("Il mio nome è"+ " " +myName) 
+console.log("ESERCIZIO 2");
+let myName = "Cosimo";
+console.log("Il mio nome è" + " " + myName);
 console.log("************************************************************");
-
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-console.log("ESERCIZIO 3")
-let a = 12
-let b = 20
-let c = a + b
-console.log("La somma delle due cifre "+12+" e "+20+" è"+" " +c) 
+console.log("ESERCIZIO 3");
+let a = 12;
+let b = 20;
+let c = a + b;
+console.log("La somma delle due cifre " + 12 + " e " + 20 + " è" + " " + c);
 console.log("************************************************************");
 
 /* ESERCIZIO 4
@@ -52,12 +49,11 @@ console.log("************************************************************");
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-console.log("ESERCIZIO 4")
-let x = 12
+console.log("ESERCIZIO 4");
+let x = 12;
 
-console.log("Il valore della variabile x è "+x+".") 
+console.log("Il valore della variabile x è " + x + ".");
 console.log("************************************************************");
-
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
@@ -65,10 +61,10 @@ console.log("************************************************************");
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-console.log("ESERCIZO 5")
+console.log("ESERCIZO 5");
 // const myName = "pastore"
 
-console.log("Cannot redeclare block-scoped variable 'myName'.") 
+console.log("Cannot redeclare block-scoped variable 'myName'.");
 console.log("************************************************************");
 
 /* ESERCIZIO 6
@@ -76,11 +72,19 @@ console.log("************************************************************");
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-console.log("ESERCIZIO 6")
-let num = 4 
-let k = 12
-console.log(num - x )
-console.log("Il risultato della sottrazione tra "+num+" e il valore x("+x+")(in questo caso k, ma con valore comunque 12) è "+(num - x )+".") 
+console.log("ESERCIZIO 6");
+let num = 4;
+let k = 12;
+console.log(num - x);
+console.log(
+  "Il risultato della sottrazione tra " +
+    num +
+    " e il valore x(" +
+    x +
+    ")(in questo caso k, ma con valore comunque 12) è " +
+    (num - x) +
+    "."
+);
 console.log("************************************************************");
 
 /* ESERCIZIO 7
@@ -90,13 +94,19 @@ console.log("************************************************************");
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-console.log("ESERCIZO 7")
-let name1 = "jhon"
-let name2 = "Jhon"
-console.log("la variabile 'name1' e la variabile 'name2' sono uguali:")
-console.log(name1===name2)
+console.log("ESERCIZO 7");
+let name1 = "jhon";
+let name2 = "Jhon";
+console.log("la variabile 'name1' e la variabile 'name2' sono uguali:");
+console.log(name1 === name2);
 
-console.log("Il contenuto della variabile name1 (" + name1.toLowerCase() + ") e il contenuto della variabile name2 (" + name2.toLowerCase() + ") è uguale: " + ( name1.toLowerCase() === name2.toLowerCase()))
+console.log(
+  "Il contenuto della variabile name1 (" +
+    name1.toLowerCase() +
+    ") e il contenuto della variabile name2 (" +
+    name2.toLowerCase() +
+    ") è uguale: " +
+    (name1.toLowerCase() === name2.toLowerCase())
+);
 
 console.log("************************************************************");
-
